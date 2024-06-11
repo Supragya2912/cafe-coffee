@@ -18,7 +18,7 @@ const priceSchema = new mongoose.Schema({
 const beansSchema = new mongoose.Schema({
     id: {
         type: String,
-        required: true,
+        // required: true,
         unique: true
     },
     name: {
